@@ -1,0 +1,12 @@
+services:
+  folio:
+    build: .
+    ports:
+      - "4000:4000"
+    env_file: .env
+    volumes:
+      - folio-data:/data
+    restart: unless-stopped
+
+volumes:
+  folio-data:

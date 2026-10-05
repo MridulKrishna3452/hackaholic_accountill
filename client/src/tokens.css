@@ -1,0 +1,54 @@
+/* Hallmark · custom theme · tone: utilitarian-editorial · anchor hue: deep ink-green (165)
+ * paper oklch(97.5% 0.012 85) · accent oklch(42% 0.09 165) · display: Fraunces (roman) + body: Instrument Sans
+ * axes: light / high-contrast-serif / chromatic-green */
+:root {
+  --color-paper: oklch(97.5% 0.012 85);
+  --color-surface: oklch(99.2% 0.006 85);
+  --color-sunken: oklch(94.5% 0.014 85);
+  --color-ink: oklch(24% 0.025 165);
+  --color-muted: oklch(47% 0.02 165);
+  --color-rule: oklch(88% 0.016 85);
+  --color-rule-strong: oklch(78% 0.02 85);
+  --color-accent: oklch(42% 0.09 165);
+  --color-accent-hover: oklch(36% 0.085 165);
+  --color-accent-soft: oklch(93.5% 0.035 165);
+  --color-on-accent: oklch(98% 0.01 85);
+  --color-warn: oklch(48% 0.12 65);
+  --color-warn-soft: oklch(94% 0.06 80);
+  --color-danger: oklch(48% 0.17 28);
+  --color-danger-soft: oklch(94% 0.04 28);
+  --color-focus: oklch(55% 0.14 230);
+  --color-scrim: oklch(24% 0.025 165 / 0.45);
+
+  --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-body: 'Instrument Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Consolas, monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.5rem;
+  --text-2xl: clamp(1.75rem, 1.3rem + 1.6vw, 2.25rem);
+  --text-display: clamp(2.5rem, 1.4rem + 4.6vw, 4.75rem);
+
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 5rem;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+
+  --shadow-pop: 0 18px 50px -12px oklch(24% 0.025 165 / 0.28);
+}
